@@ -1,0 +1,17 @@
+This is first page
+<br>
+
+  {{#link-to 'geonames'}}geonames{{/link-to}}
+<br>
+<br>
+
+{{#if isCompany}}
+My first name is {{firstName}}
+My last name is {{lastName}}
+
+{{#each courses as course}}
+{{color}}
+{{geonames.geonameId}}
+{{status.message}}
+{{/each}}
+{{/if}}

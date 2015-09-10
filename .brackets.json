@@ -1,0 +1,28 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/emberJS/my-app/bower_components/jquery/src/offset.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/outro.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/queue.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/selector-sizzle.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/selector.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/serialize.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/support.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/traversing.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/wrap.js",
+        "C:/emberJS/my-app/bower_components/loader.js/loader.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/manipulation.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/intro.js",
+        "C:/emberJS/my-app/bower_components/qunit/reporter/html.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/deferred.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/data.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/event.js",
+        "C:/emberJS/my-app/bower_components/qunit/build/release.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/effects.js",
+        "C:/emberJS/my-app/bower_components/jquery/src/dimensions.js",
+        "C:/emberJS/my-app/bower_components/qunit/src/core.js",
+        "C:/emberJS/my-app/bower_components/qunit/src/diff.js",
+        "C:/emberJS/my-app/bower_components/qunit/qunit/qunit.js",
+        "C:/emberJS/my-app/bower_components/qunit/src/assert.js",
+        "C:/emberJS/my-app/bower_components/qunit/src/dump.js"
+    ]
+}
