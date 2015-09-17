@@ -1,9 +1,20 @@
-This will show the geonames
 
-{{#each model.geonames as |item|}}
-{{item.lenght}}
-{{item.fcodeName}}
-{{item.countrycode}}
+
+{{#each model.geonames}}
+
+{{fcodeName}}
+
+
+
+ <p><a href={{fullAddress}}>{{countrycode}}</a></p>
 
 {{/each}}
+
+<p>{{model.status.message}}</p>
+
+
+
+
+
+
 

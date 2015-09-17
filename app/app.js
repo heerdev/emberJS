@@ -14,6 +14,14 @@ App = Ember.Application.extend({
     LOG_TRANSITIONS:true
 });
 
+App.BaseModel = Ember.Mixin.create({
+  base: 'http://maps.google.com/?q=',
+  fullAddress: function(){
+    return this.get('base') + this.get('countrycode');
+  }.property('countrycode')
+});
+
+
 loadInitializers(App, config.modulePrefix);
 
 export default App;

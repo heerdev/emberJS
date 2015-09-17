@@ -1,7 +1,8 @@
 import DS from 'ember-data';
 
-var attr = DS.attr;
 
-export default  DS.Model.extend({
+
+export default  DS.Model.extend(App.BaseModel,{
+    countrycode: DS.attr('string')
  
 });

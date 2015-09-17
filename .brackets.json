@@ -23,6 +23,7 @@
         "C:/emberJS/my-app/bower_components/qunit/src/diff.js",
         "C:/emberJS/my-app/bower_components/qunit/qunit/qunit.js",
         "C:/emberJS/my-app/bower_components/qunit/src/assert.js",
-        "C:/emberJS/my-app/bower_components/qunit/src/dump.js"
+        "C:/emberJS/my-app/bower_components/qunit/src/dump.js",
+        "C:/Users/HEER/emberJS/bower_components/jquery/src/effects.js"
     ]
 }
