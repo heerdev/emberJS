@@ -10,17 +10,8 @@ Ember.MODEL_FACTORY_INJECTIONS = true;
 App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
-  Resolver: Resolver,
-    LOG_TRANSITIONS:true
+  Resolver: Resolver
 });
-
-App.BaseModel = Ember.Mixin.create({
-  base: 'http://maps.google.com/?q=',
-  fullAddress: function(){
-    return this.get('base') + this.get('countrycode');
-  }.property('countrycode')
-});
-
 
 loadInitializers(App, config.modulePrefix);
 

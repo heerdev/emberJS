@@ -1,0 +1,34 @@
+{{outlet}}
+
+
+    <h2>Create Task</h2>
+    <label for="txt">Task Name:</label>
+
+{{input type="text"  class="form-control" value=taskname disabled=entryNotAllowed size="50"}}
+   
+    
+    
+      <label for="txt">Description:</label>
+               
+     {{textarea  class="form-control" value=description cols="80" rows="6"}}
+   
+
+    
+      <label for="txt">Status</label>
+    
+       {{input type="text" class="form-control"  value=status disabled=entryNotAllowed size="50"}}
+    
+      <label for="text">Assign To</label>
+        <br>
+    
+      <select class="ember-select form-control">
+        <option value="1">Yehuda</option>
+            <option value="2">Tom</option>
+    </select>
+     
+        <br>
+<br>
+        <button type="submit" class="btn btn-primary">Create Task</button>
+        <button type="button" class="btn btn-info">Reset</button>
+    
+
